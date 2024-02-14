@@ -28,7 +28,7 @@ def load_data(table_name):
     return table
 
 # Select and display data table
-table_name = "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.customer "
+table_name = "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.customer"
 
 ## Display data table
 with st.expander("See Table"):
